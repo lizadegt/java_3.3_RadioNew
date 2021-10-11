@@ -13,8 +13,8 @@ public class Radio {
 
 
     public Radio(int numberOfStations) {
-       this.numberOfStations = numberOfStations;
-       this.maxRadioStation = numberOfStations - 1;
+        this.numberOfStations = numberOfStations;
+        this.maxRadioStation = numberOfStations - 1;
     }
 
     public Radio() {
@@ -44,7 +44,7 @@ public class Radio {
         this.name = name;
     }
 
-   public void setMinRadioStation(int minRadioStation) {
+    public void setMinRadioStation(int minRadioStation) {
         this.minRadioStation = minRadioStation;
     }
 
@@ -52,7 +52,7 @@ public class Radio {
         return maxRadioStation;
     }
     public void setMaxRadioStation(int maxRadioStation) {
-            this.maxRadioStation = maxRadioStation;
+        this.maxRadioStation = maxRadioStation;
     }
 
     public int getCurrentRadioStation(int i) {
