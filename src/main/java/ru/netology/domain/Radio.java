@@ -18,15 +18,6 @@ public class Radio {
     }
 
     public Radio() {
-        this.name = name;
-        this.numberOfStations = numberOfStations;
-        this.minRadioStation = minRadioStation;
-        this.maxRadioStation = maxRadioStation;
-        this.currentRadioStation = currentRadioStation;
-        this.minVolume = minVolume;
-        this.maxVolume = maxVolume;
-        this.currentVolume = currentVolume;
-        this.on = on;
     }
 
     public int getNumberOfStations(int i) {
